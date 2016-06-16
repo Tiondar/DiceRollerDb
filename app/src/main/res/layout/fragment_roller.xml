@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:id="@+id/fragmentRoll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matteo.dicerollerdb.RollerFragment">
+
+
+
+    <TextView
+        android:id="@+id/risultato"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="4"
+        android:text=""
+        android:hint="Dice results here"
+        android:textColorHint="#0a0a0a"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="cursive"
+        android:textColor="#000000"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/informazioniPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Sono il giocatore 1"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="cursive"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="4">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="d4"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_weight="1"
+            android:textColor="#a3933c"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/buttonD4"
+            android:background="@drawable/woodtexture1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="50dp"
+            android:text="d6"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#a3933c"
+            android:id="@+id/buttonD6"
+            android:background="@drawable/woodtexture1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="50dp"
+            android:text="d8"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/buttonD8"
+            android:textColor="#a3933c"
+            android:background="@drawable/woodtexture1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:text=" d10"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_weight="1"
+            android:textColor="#a3933c"
+            android:layout_gravity="center"
+            android:id="@+id/buttonD10"
+            android:background="@drawable/woodtexture1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:text="d12"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#a3933c"
+            android:id="@+id/buttonD12"
+            android:background="@drawable/woodtexture1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="d20"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="#a3933c"
+            android:layout_gravity="center"
+            android:id="@+id/buttonD20"
+            android:background="@drawable/woodtexture1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="50dp"
+            android:text="d100"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#a3933c"
+            android:id="@+id/buttonD100"
+            android:background="@drawable/woodtexture1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="50dp"
+            android:text="P.Set"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/buttonSetPlayer"
+            android:textColor="#a3933c"
+            android:background="@drawable/woodtexture1"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Set Player"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/goToSetPlayer"
+        android:textColor="#a3933c"
+        android:background="@drawable/woodtexture1"/>
+
+
+
+</LinearLayout>

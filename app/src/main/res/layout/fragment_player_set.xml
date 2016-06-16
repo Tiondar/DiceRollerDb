@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matteo.dicerollerdb.PlayerSetFragment"
+
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="8">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Set premade rolls"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:id="@+id/nomePlayer"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:weightSum="7">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:hint="Insert number of D4"
+                    android:gravity="center"
+                    android:id="@+id/dQuattroEdt"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:hint="Insert number of D6"
+                    android:gravity="center"
+                    android:id="@+id/dSeiEdt"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:hint="Insert number of D8"
+                    android:gravity="center"
+                    android:id="@+id/dOttoEdt"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:hint="Insert number of D10"
+                    android:gravity="center"
+                    android:id="@+id/dDieciEdt"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:text=""
+                    android:hint="Insert number of D12"
+                    android:gravity="center"
+                    android:id="@+id/dDodiciEdt"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:hint="Insert number of D20"
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:id="@+id/dVentiEdt"
+                    android:layout_weight="1"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:hint="Insert number of D100"
+                    android:gravity="center"
+                    android:id="@+id/dCentoEdt"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"
+                    android:hint="Insert Modifier"
+                    android:gravity="center"
+                    android:id="@+id/modifierSet"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Save"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:id="@+id/button_save"
+                android:textColor="#a3933c"
+                android:background="@drawable/woodtexture1"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
